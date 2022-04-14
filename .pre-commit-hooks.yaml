@@ -5,7 +5,7 @@
   types:
     - text
     - file
-  entry: git-hook/generate-schema-doc-md.sh
+  entry: ./git-hook/generate-schema-doc-md.sh
   files: \.schema\.json$
   language: python
   name: Generate Markdown from JSON schema
