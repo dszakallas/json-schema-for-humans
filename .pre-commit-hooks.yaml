@@ -1,0 +1,11 @@
+
+- id: json-schema-for-humans
+  args: []
+  description: Uses json-schema-for-humans to generate docs for JSON schema.
+  types:
+    - text
+    - file
+  entry: generate-schema-doc
+  files: \.schema\.json)$
+  language: python
+  name: Generate docs for JSON schema
