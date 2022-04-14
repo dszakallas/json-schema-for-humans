@@ -1,11 +1,11 @@
 
-- id: json-schema-for-humans
+- id: json-schema-for-humans-md
   args: []
   description: Uses json-schema-for-humans to generate docs for JSON schema.
   types:
     - text
     - file
-  entry: generate-schema-doc
+  entry: git-hooks/generate-schema-doc-md.sh
   files: \.schema\.json$
   language: python
-  name: Generate docs for JSON schema
+  name: Generate Markdown from JSON schema
